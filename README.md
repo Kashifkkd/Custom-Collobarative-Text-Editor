@@ -13,9 +13,6 @@
 
   <h3 align="center">A Collaborative LiveDocs</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -30,7 +27,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -60,10 +57,11 @@ If you're getting started and need assistance or face any bugs, join our active 
 👉 **Collaborative Text Editor**: Multiple users can edit the same document simultaneously with real-time updates.
 
 👉 **Documents Management**
-   - **Create Documents**: Users can create new documents, which are automatically saved and listed.
-   - **Delete Documents**: Users can delete documents they own.
-   - **Share Documents**: Users can share documents via email or link with view/edit permissions.
-   - **List Documents**: Display all documents owned or shared with the user, with search and sorting functionalities.
+
+- **Create Documents**: Users can create new documents, which are automatically saved and listed.
+- **Delete Documents**: Users can delete documents they own.
+- **Share Documents**: Users can share documents via email or link with view/edit permissions.
+- **List Documents**: Display all documents owned or shared with the user, with search and sorting functionalities.
 
 👉 **Comments**: Users can add inline and general comments, with threading for discussions.
 
@@ -73,7 +71,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Responsive**: The application is responsive across all devices.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -125,49 +123,3 @@ Replace the placeholder values with your actual Clerk & LiveBlocks credentials. 
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-## <a name="snippets">🕸️ Snippets</a>
-
-<details>
-<summary><code>globals.css</code></summary>
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* @import "@liveblocks/react-ui/styles.css"; */
-/* @import "@liveblocks/react-lexical/styles.css"; */
-
-/* @import "../styles/dark-theme.css"; */
-
-/* ========================================== TAILWIND STYLES */
-@layer base {
-  :root {
-    background: #09111f;
-    color: #fff;
-    margin: 0;
-  }
-
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-    border-radius: 50px;
-  }
-
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #09090a;
-  }
-
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #2e3d5b;
-    border-radius: 50px;
-  }
-
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #7878a3;
-  }
-}
-
